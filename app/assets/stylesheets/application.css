@@ -12,6 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require normalize.css
+ *= require main.css
  */
-*= require main.css
-*= require normalize.css
