@@ -12,6 +12,37 @@
  *
  *= require_tree .
  *= require_self
- *= require normalize.css
- *= require main.css
  */
+
+html, body {
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container-fluid {
+
+}
+
+.logo {
+	font-family: 'Fredoka One', cursive;
+}
+
+.logo span {
+	color:red;
+	font-size: 25px;
+}
+
+.navbar {
+	background-color: white;
+}
+
+.main {
+	text-align: center;
+}
+
+.main h1 {
+	margin-top: 10%;
+}
+
+.main button {
+	margin-top: 11%;
+}
