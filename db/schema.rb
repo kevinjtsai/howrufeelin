@@ -35,5 +35,13 @@ ActiveRecord::Schema.define(version: 20150308194845) do
 
   add_index "images", ["feeling_id"], name: "index_images_on_feeling_id", using: :btree
 
+  create_table "widgets", force: :cascade do |t|
+    t.string   "name",        limit: 255
+    t.text     "description"
+    t.integer  "stock"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   add_foreign_key "images", "feelings"
 end

@@ -5,8 +5,14 @@
           <button class="btn btn-default btn-ms dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
             PRESS ME NOW! <span class="caret"></span>
           </button>
+
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Happy</a></li>
+              <% @feelings.each do |feeling| %>
+                <li>
+                <%= link_to feeling.name, images_show_path  %>
+                </li> 
+              <% end %>
+<!-- <a href="#">Happy</a></li>
             <li class="divider"></li>
             <li><a href="#">Sad</a></li>
             <li class="divider"></li>
@@ -16,7 +22,7 @@
             <li class="divider"></li>
             <li><a href="#">Bad Ass</a></li>
             <li class="divider"></li>
-            <li><a href="#">Anxious</a></li>
+            <li><a href="#">Anxious</a></li> -->
           </ul>
         </div>
     </div>

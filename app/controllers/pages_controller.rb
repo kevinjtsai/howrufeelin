@@ -9,5 +9,6 @@ class PagesController < ApplicationController
   end
 
   def home
+  	@feelings = Feeling.all
   end
 end
