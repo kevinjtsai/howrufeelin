@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'feelings/home'
 
+  resources :feelings
+
   get 'pages/about'
 
   get 'pages/contact'

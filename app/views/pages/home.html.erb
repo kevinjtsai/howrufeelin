@@ -8,21 +8,12 @@
 
           <ul class="dropdown-menu" role="menu">
               <% @feelings.each do |feeling| %>
-                <li>
-                <%= link_to feeling.name, images_show_path  %>
-                </li> 
+                <%= link_to(feeling) do %>
+                  <li>
+                  <%= feeling.name  %>
+                  </li>
+                <% end %> 
               <% end %>
-<!-- <a href="#">Happy</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Sad</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Excited</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Pissed Off</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Bad Ass</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Anxious</a></li> -->
           </ul>
         </div>
     </div>
