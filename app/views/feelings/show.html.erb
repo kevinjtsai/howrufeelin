@@ -1,5 +1,5 @@
 
-	<div class="container-fluid">
+<!-- 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12">
 				<h2 class="feeling"><%= @feeling.name %></h2>
@@ -12,7 +12,35 @@
 				<% end %>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
+
+	<div class="wrap">
+		<h2 class="feeling"><%= @feeling.name %></h2>
+        <!-- start jtinder container -->
+        <div id="tinderslide">
+            <ul>
+            	<% @images.each do |image| %>
+                <li class="pane1">
+                    <div><%= image_tag(image.url, :class => "img-responsive img") %> </div>
+                    <div><%= image.name %></div>
+                    <div class="like"></div>
+                    <div class="dislike"></div>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+        <!-- end jtinder container -->
+    </div>
+    <!-- end padding container -->
+
+    <!-- jTinder trigger by buttons  -->
+    <div class="actions">
+        <a href="#" class="dislike"><i></i></a>
+        <a href="#" class="like"><i></i></a>
+    </div>
+
+    <!-- jTinder status text  -->
+    <div id="status"></div>
 
 

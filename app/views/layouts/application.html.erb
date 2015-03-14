@@ -8,12 +8,12 @@
 
     <!-- Bootstrap -->
     
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/jTinder.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,11 +52,19 @@
 <%= yield %>
 
 
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- transform2d lib -->
+    <%= javascript_include_tag 'jquery.transform2d.js', 'data-turbolinks-track' => true %>
+    <!-- jTinder lib -->
+    <%= javascript_include_tag 'jquery.jTinder.js', 'data-turbolinks-track' => true %>
+    <!-- jTinder initialization script -->
+    <%= javascript_include_tag 'main.js', 'data-turbolinks-track' => true %>
 
 </body>
 </html>
