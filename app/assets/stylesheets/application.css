@@ -48,7 +48,17 @@ html, body {
 }
 
 .image {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
+li {
+	text-align: center;
+	text-decoration: none;
+}
+
+li:hover {
+	font-size: 20px;
 }
 
 .img-responsive {  
