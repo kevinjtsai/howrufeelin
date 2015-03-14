@@ -154,11 +154,13 @@ body {
 }
 
 .actions a.dislike i {
-    background: url("dislike_button.png") no-repeat scroll center center;
+    background: url("dislike-button-new.png") no-repeat scroll center center;
+    margin-top: 5px;
 }
 
 .actions a.like i {
-    background: url("like_button.png") no-repeat scroll center center;
+    background: url("like-button-new.png") no-repeat scroll center center;
+    margin-top: -2px;
 }
 
 .actions a {
