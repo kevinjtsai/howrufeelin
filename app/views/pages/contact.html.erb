@@ -1,2 +1,44 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <script>
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>
+	
+	<div class="container contact">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 contact">
+				<p style="text-align: center">If you have any questions, please feel free to email us and share our site on facebook and twitter</p>
+				<textarea id="user_message"></textarea>
+				<button id="email-button">Submit</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 contact">
+				<div id="social">
+					<ul>
+						<li id="twitter-share">
+							<a class="twitter-share-button" href="https://twitter.com/share"
+						  data-related="twitterdev"
+						  data-size="large"
+						  data-count="none">
+						Tweet
+							</a>
+						</li>
+						<li id="fb-share">
+							<div class="fb-share-button" data-href="http://www.howrufeelin.com" data-layout="box_count"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+			</div>
+		</div>
+	</div>
+			

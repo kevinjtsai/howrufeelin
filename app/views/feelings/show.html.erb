@@ -1,29 +1,18 @@
-
-<!-- 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xs-12">
-				<h2 class="feeling"><%= @feeling.name %></h2>
-
-				<% @images.each do |image| %>
-					
-					<div class="image"><%= image_tag(image.url, :class => "img-responsive") %></div>
-					
-
-				<% end %>
-			</div>
-		</div>
-	</div> -->
-
-
-	<div class="wrap">
+<div class="wrap">
 		<h2 class="feeling"><%= @feeling.name %></h2>
         <!-- start jtinder container -->
         <div id="tinderslide">
             <ul>
+            	<% for i in 1..10 do %>
+            	<li id="lastslide">
+            		<div>
+            			<h2>Sorry, this is the last image</h2>
+            		</div>
+            	</li>
+            	<% end %>
             	<% @images.each do |image| %>
                 <li class="pane1">
-                    <div><%= image_tag(image.url, :class => "img-responsive img") %> </div>
-                    <div><%= image.name %></div>
+                    <div><%= image.name %> <%= image_tag(image.url, :class => "img-responsive img") %> </div>
                     <div class="like"></div>
                     <div class="dislike"></div>
                 </li>

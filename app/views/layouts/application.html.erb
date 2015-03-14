@@ -13,7 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-    <link rel="stylesheet" type="text/css" href="assets/stylesheets/jTinder.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/stylesheets/jTinder.css"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,8 +42,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="/pages/about">About Us <span class="sr-only">(current)</span></a></li>
+            <li><a href="/pages/contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -58,6 +58,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Mandrill API -->
+    <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+
+    <!-- Send Email Code -->
+    <%= javascript_include_tag 'sendmail.js', 'data-turbolinks-track' => true %>
 
     <!-- transform2d lib -->
     <%= javascript_include_tag 'jquery.transform2d.js', 'data-turbolinks-track' => true %>
@@ -65,6 +70,8 @@
     <%= javascript_include_tag 'jquery.jTinder.js', 'data-turbolinks-track' => true %>
     <!-- jTinder initialization script -->
     <%= javascript_include_tag 'main.js', 'data-turbolinks-track' => true %>
+
+
 
 </body>
 </html>

@@ -70,5 +70,29 @@ a:hover {
 	max-width: 100%; 
 }
 
+/*About Page*/
+
+/*.contact {
+	display: block;
+	margin: auto;
+}*/
+
+#social {
+	margin: auto;
+	width: 300px;
+}
+
+#social ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+#twitter-share {
+	padding: 10px;
+}
+
+#fb-share {
+	padding: 10px;
+}
 
 

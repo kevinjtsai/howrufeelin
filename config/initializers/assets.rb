@@ -9,6 +9,8 @@ Rails.application.config.assets.precompile += %w( jquery.jTinder.js )
 
 Rails.application.config.assets.precompile += %w( main.js )
 
+Rails.application.config.assets.precompile += %w( sendmail.js )
+
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
