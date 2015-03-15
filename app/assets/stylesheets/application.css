@@ -20,6 +20,7 @@ html, body {
 }
 
 .container-fluid {
+	min-height: 100%;
 }
 
 .logo {
@@ -35,6 +36,10 @@ html, body {
 	background-color: white;
 	padding: 0;
 	margin: 0;
+}
+
+.navbar ul:hover {
+	color: #ff0000;
 }
 
 .main {
@@ -60,10 +65,11 @@ li {
 
 .dropdown-menu li:hover {
 	font-size: 20px;
+	color: #ff0000;
 }
 
 a:hover { 
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .img-responsive {  
@@ -90,10 +96,6 @@ a:hover {
 	font-size: 20px;
 }
 
-#send-message {
-
-}
-
 #user_message {
 	padding: 0 20px;
 	width: 350px;
@@ -103,29 +105,32 @@ a:hover {
 	margin-bottom: 0 20px;
 }
 
-#social {
-	margin: auto;
-	width: 300px;
+.social-links {
+	padding-top: 25px;
 }
 
-#social ul li {
-	list-style: none;
-	display: inline-block;
+.social-links .facebook {
+	margin-top: -10px;
 }
 
-#twitter-share {
-	padding: 0 10px;
-}
-
-#fb-share {
-	padding: 0 10px;
+.fb-share-button {
+	transform: scale(1.5);
+-ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+-o-transform: scale(1.5);
+-moz-transform: scale(1.5);
+transform-origin: top left;
+-ms-transform-origin: top left;
+-webkit-transform-origin: top left;
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
 }
 
 /*About Page*/
 
 .main.about .jumbotron {
 	opacity: 0.85;
-	height: 425px;
+	height: 100%;
 	width: 100%;
 	background-position: 0px -50px;
 	background-color: black;
@@ -134,14 +139,16 @@ a:hover {
 
 .main.about .jumbotron h2 {
 	margin-top: -5px;
-	font-sizSe: 55px;
 	text-align: center;
+	font-family: 'Fredoka One', cursive;
 }
 
 .redheart {
+	font-family: 'Fredoka One', cursive;
 	color:#ff0000;
 	opacity: 0.9;
 	background-color: black;
+
 }
 
 .highlight {
