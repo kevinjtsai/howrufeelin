@@ -5,7 +5,7 @@ class CreateImages < ActiveRecord::Migration
       t.string :url
       t.integer :likes
       t.integer :dislikes
-      t.references :feeling, index: true
+      t.references :feelings, index: true
 
       t.timestamps null: false
     end
