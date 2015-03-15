@@ -27,7 +27,7 @@ html, body {
 }
 
 .logo span {
-	color:red;
+	color: #ff0000;
 	font-size: 25px;
 }
 
@@ -61,7 +61,7 @@ li {
 }
 
 a:hover { 
-    text-decoration:none; 
+    text-decoration: none; 
 }
 
 .img-responsive {  
@@ -106,7 +106,7 @@ a:hover {
 
 .main.about .jumbotron h2 {
 	margin-top: -5px;
-	font-size: 55px;
+	font-sizSe: 55px;
 	text-align: center;
 }
 
@@ -130,8 +130,5 @@ a:hover {
 .main.about a:hover {
 	color: white;
 }
-
-
-
 
 
