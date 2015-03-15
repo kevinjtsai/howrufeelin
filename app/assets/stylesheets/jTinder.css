@@ -119,7 +119,7 @@ body {
 /* Like & dislike badge images */
 #tinderslide .like,
 #tinderslide .dislike {
-    background: url("liked.png") no-repeat scroll 0 0;
+    background: url("http://static.papercutmag.com/cdn/farfuture/uX0IWJSaKsaz-xAGBhdk4e2a0Mi3OuZHkxuUR8lF-m4/:/sites/default/files/liked.png") no-repeat scroll 0 0;
     opacity: 0;
     height: 80px;
     position: absolute;
@@ -140,7 +140,7 @@ body {
 #tinderslide .dislike {
     right: 45px;
     left: auto;
-    background: url("nope.png") no-repeat scroll 0 0;
+    background: url("http://static.papercutmag.com/cdn/farfuture/-xhsjzRI-MQeS7V9E_n1BuJK96ua6kQewN-dQBxdicE/:/sites/default/files/nope.png") no-repeat scroll 0 0;
 }
 
 /* Image container */
@@ -182,12 +182,12 @@ body {
 }
 
 .actions a.dislike i {
-    background: url("dislike-button-new.png") no-repeat scroll center center;
+    background: url("http://static.papercutmag.com/cdn/farfuture/pcJBBgOrk1hcpP_sf3maw2Ywq_kcZJf4fGvJqNZUUVU/:/sites/default/files/dislike-button-new.png") no-repeat scroll center center;
     margin-top: 5px;
 }
 
 .actions a.like i {
-    background: url("like-button-new.png") no-repeat scroll center center;
+    background: url("http://static.papercutmag.com/cdn/farfuture/BXub6gOqdQF8Rv9HJNyp1BknbvxC84XrcNqNoxogu6g/:/sites/default/files/like-button-new.png") no-repeat scroll center center;
     margin-top: -2px;
 }
 

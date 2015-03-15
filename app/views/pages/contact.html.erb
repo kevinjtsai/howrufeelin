@@ -10,13 +10,15 @@
     <script>
 window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
 </script>
-	
+<div class="main-contact">
 	<div class="container contact">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 contact">
 				<p style="text-align: center">If you have any questions, please feel free to email us and share our site on facebook and twitter</p>
-				<textarea id="user_message"></textarea>
-				<button id="email-button">Submit</button>
+				<div id="send-message">
+					<textarea id="user_message"></textarea>
+					<button id="email-button">Submit</button>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -41,4 +43,4 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 			</div>
 		</div>
 	</div>
-			
+</div>			

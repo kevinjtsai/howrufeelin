@@ -34,7 +34,7 @@ Image.create(name: "sad kitty", url: "http://www.popkitten.com/wp-content/upload
 Image.create(name: "sad kitten", url: "http://www.imgion.com/images/01/Sad-Kitten-.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
 Image.create(name: "sad pug", url: "http://i.ytimg.com/vi/Xw1C5T-fH2Y/maxresdefault.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
 Image.create(name: "sad baby", url: "http://woliper.com/wp-content/uploads/2014/08/Newborn-Baby-Very-Sad-1024x768.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
-Image.create(name: "deception?", url: "http://i.imgur.com/lIutDI2.png", likes: 0, dislikes: 0, feeling_id: f2.id)
+Image.create(name: "decepticon?", url: "http://i.imgur.com/lIutDI2.png", likes: 0, dislikes: 0, feeling_id: f2.id)
 Image.create(name: "genie hug", url: "http://www.themarysue.com/wp-content/uploads/2014/08/aladdin-genie-hug.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
 Image.create(name: "rafiki advice", url: "http://fc08.deviantart.net/fs70/i/2014/116/b/a/lion_king___rafiki_quote_poster_by_jc_790514-d7g4swn.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
 Image.create(name: "donkey", url: "http://i134.photobucket.com/albums/q88/btifulnightmare/shrek3_donkey.jpg", likes: 0, dislikes: 0, feeling_id: f2.id)
